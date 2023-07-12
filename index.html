@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de personagens KOF</title>
+
+    <link rel="shortcut icon" href="./src/image/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/image/logo.png" alt="Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="kyo" data-name="kyo" data-description="Kyo é o último da geração do lendário clã dos
+                Kusanagi, que é uma das duas famílias que controlaram e selaram o poder de Orochi há 1800 anos atrás
+                , junto com o clã Yagami.">
+                    <img src="./src/image/card-kyo.jpg" alt="Personagem Kyo">
+                </li>
+                <li class="personagem" id="iori" data-name="iori" data-description="Iori é o último descendente do clã Yagami, uma
+                linhagem que se tornou condenada a viver por um curto período de tempo, por causa do sangue de
+                Orochi que circula em suas veias. Esta história começa a muito tempo atrás, a aproximadamente 1800
+                anos...">
+                    <img src="./src/image/card-iori.jpg" alt="Personagem Iori">
+                </li>
+                <li class="personagem" id="kula" data-name="kula" data-description="Kula Diamond, conhecida como a 'anti-K'. Essa
+                bela jovem, com uma aparência infantil e instinto de uma assassina, foi desenhada de uma forma
+                totalmente diferente de K' e Krizalid. Seu poder não vinha das poderosas chamas da família Kusanagi,
+                mas sim do elemento rival do fogo: O gelo.">
+                    <img src="./src/image/card-kula.jpg" alt="Personagem Kula">
+                </li>
+                <li class="personagem" id="leona" data-name="leona" data-description="Leona possui um passado obscuro e um futuro
+                muito triste.Tudo começou quando Leona era apenas uma pequena garota, vivendo com sua família em uma
+                aldeia. Leona gostava de estar com seu pai, Guidel mais que tudo.Tudo estava bom demais para ser
+                verdade...até que aquele homem apareceu.">
+                    <img src="./src/image/card-leona.jpg" alt="Personagem Leona">
+                </li>
+                <li class="personagem" id="mai" data-name="mai" data-description="Mai Shiranui é a neta de Hanzo Shiranui,
+                mestre do Ninjitsu e do Kopo-Ken. Mai tem aprendido com seu pai os segredos do Ninjitsu, se tornando
+                assim uma experiente em táticas de ataques próximos. Embora seja uma garota muito bonita, ela
+                rejeita todos os garotos que tentam ficar com ela, considerando-osfracos demais para ela.">
+                    <img src="./src/image/card-mai.jpg" alt="Personagem Mai">
+                </li>
+                <li class="personagem" id="shermie" data-name="shermie" data-description="Shermie é uma mulher bastante sensual que vive
+                como uma garota moderna: Faz compras, sonha com um grande amor, vive sua vida tão intensamente
+                quanto pode. Entretanto, seu destino já está traçado: O seu sangue de Orochi e seu cargo como um dos
+                quatro Reis Sagrados de Orochi indicam como será sua vida.">
+                    <img src="./src/image/card-shermie.jpg" alt="Personagem Shermie">
+                </li>
+                <li class="personagem" id="terry" data-name="terry" data-description="Terry Bogard é considerado o primeiro campeão
+                no torneio King of Fighters, antes mesmo de Kyo Kusanagi. Considerado um dos melhores lutadores de
+                todos os tempos, Terry Bogard tem lutado há muito tempo, desde quando era um garoto, ele tinha que
+                sobreviver as ameaças das ruas perigosas de Southtown">
+                    <img src="./src/image/card-terry.jpg" alt="Personagem Terry">
+                </li>
+                <li class="personagem" id="rugal" data-name="rugal" data-description="Rugal tem sido admirado e temido pelo mundo,
+                por líderes do crime e políticos, por sua influência e poder em seus negócios ilegais. Entretanto, ele não era apenas temido nos altos níveis sociais, ele também é uma
+                personalidade no mundo da luta, conhecido como o homem que não deixa os derrotados por ele vivos.">
+                    <img src="./src/image/card-rugal.jpg" alt="Personagem Rugal">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/image/kyo-fire.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem"></h2>
+                <p class="descricao-personagem" id="descricao-personagem"></p>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
